@@ -3,14 +3,15 @@ Simple platform offers an immersive experience for purchasing character based vi
 
 ## Content :
 
+<a href="#feature">Features </a>
+<a href="#usage">Usage </a>
 <a href="#screens">Screens </a>
 
-## Features: 
+## Features <a name="feature"></a>
 
 - Responsive Design using HTML and CSS
-
 - Applying fast performance using RxJS
-  
+
 
 ## Follow these steps to run the project on your local machine:
 
