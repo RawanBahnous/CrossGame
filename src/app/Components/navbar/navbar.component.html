@@ -1,0 +1,33 @@
+<ul>
+  <li><a routerLink="/">CrossGame</a></li>
+  <li><a routerLink="/gameslist">All GameList</a></li>
+  <li><a href="#top">Top Games</a></li>
+  <!-- <li>
+    <select [(ngModel)]="selectedGameType" (change)="onGameTypeChange()">
+      <option value="Select Type">Select Type</option>
+      <option *ngFor="let type of gameTypes" [value]="type">{{ type }}</option>
+    </select>
+  </li> -->
+  <li><a (click)="openLogin()">Login</a></li>
+  <li><a (click)="openReg()">Register</a></li>
+</ul>
+
+<div *ngIf="showLogin" class="popup-overlay-login">
+  <p class="close-overlay-login" (click)="closeLogin()">X</p>
+  <h2>Welcome Again!</h2>
+  <input type="text" placeholder="Username">
+  <input type="text" placeholder="Password">
+  <button>Login</button>
+</div>
+
+<div *ngIf="showReg" class="register-popup">
+  <p class="close-reg" (click)="closeReg()">X</p>
+  <h2>You Gonna Fill Your Game Waho</h2>
+  <form action="" class="form-group">
+    <input type="text" placeholder="Username">
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <input type="text" placeholder="Address">
+  <button>Register</button>
+  </form>
+</div>

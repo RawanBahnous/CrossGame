@@ -1,0 +1,17 @@
+
+<h2 class="txt-center">
+All Chrecters List
+</h2>
+<div class="container">
+  <div class="game txt-purple" *ngFor="let g of gameslist">
+    <img [src]="g.ImgSRC" alt="{{g.Name}}">
+    <h1 class="pl-1 txt-purple">{{g.Name}}</h1>
+    <div class="contain-text txt-purple">
+      <p class="txt-purple">{{g.Type}}</p>
+      <p class="style-text txt-purple">{{g.Desc}}</p>
+      <p class="txt-purple">{{g.Price | currency}}</p>
+      <button routerLink="/gamedetails/{{g.Id}}">Show Details</button>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>

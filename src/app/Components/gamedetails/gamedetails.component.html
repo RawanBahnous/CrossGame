@@ -1,0 +1,12 @@
+
+<div class="containerdetails" *ngIf="game">
+  <div class="game">
+    <img src="{{game.ImgSRC}}" alt="">
+  </div>
+  <div class="contain-text">
+    <h1>Charecter Name: {{game.Name}}</h1>
+    <p>Description : {{game.Desc}}</p>
+    <p> Price : {{game.Price | currency}}</p>
+  </div>
+</div>
+<app-gameslist></app-gameslist>

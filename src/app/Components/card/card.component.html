@@ -1,0 +1,29 @@
+<!-- game card -->
+
+<div class="contain-cards">
+  <div class="card" (mouseover)="hide()" (mouseout)="show()">
+    <div class="content" *ngIf="lastgame">
+      <h2>{{lastgame.Name}}</h2>
+      <p>
+       {{lastgame.Desc}}
+      </p>
+      <button class="a" routerLink="/gamedetails/{{lastgame.Id}}">Buy Character</button>
+    </div>
+    <img
+      src="{{lastgame.ImgSRC}}"
+      id="img-hoverr"
+      alt="img-card"
+    />
+  </div>
+
+  <div class="containtext" [hidden]="hiddenText">
+    <p>League of Legends</p>
+    <p>
+      League of Legends (LoL), commonly referred to as League, is a 2009
+      multiplayer online battle arena video game developed and published
+      by Riot Games. Inspired by Defense of the Ancients, a custom map for
+      Warcraft III, Riot's founders sought to develop a stand-alone game
+      in the same genre. Since its release in October 2009,
+    </p>
+  </div>
+</div>

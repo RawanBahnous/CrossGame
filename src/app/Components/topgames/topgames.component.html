@@ -1,0 +1,18 @@
+
+<h2 class="txt-center">Top Charcters Game</h2>
+<div class="container-top">
+
+  <div class="top-game" *ngFor="let g of gameslist">
+ <a  routerLink="/gamedetails/{{g.Id}}">
+    <div class="top-text">
+     <div class="text">
+      <h1 class="mt-5">{{g.Name}}</h1>
+      <p>{{g.Type}}</p>
+      <p class="style-text">{{g.Desc}}</p>
+      <p>{{g.Price | currency}}</p>
+     </div>
+    </div>
+    <img [src]="g.ImgSRC" alt="{{g.Name}}" class="c-point">
+  </a>
+  </div>
+</div>
