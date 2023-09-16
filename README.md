@@ -13,7 +13,7 @@ Simple platform offers an immersive experience for purchasing character based vi
 - Applying fast performance using RxJS
 
 
-## Follow these steps to run the project on your local machine:
+## Follow these steps to run the project on your local machine <a name="usage"></a>
 
 1 - Download the Zip File / Clone the repo :
 
