@@ -3,9 +3,9 @@ Simple platform offers an immersive experience for purchasing character based vi
 
 ## Content :
 
-<a href="#feature">Features </a>
-<a href="#usage">Usage </a>
-<a href="#screens">Screens </a>
+- <a href="#feature">Features </a>
+- <a href="#usage">Usage </a>
+- <a href="#screens">Screens </a>
 
 ## Features <a name="feature"></a>
 
