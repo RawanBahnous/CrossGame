@@ -13,6 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## screens
 ![Alt Text](./assets/images/ezgif.com-crop.gif)
+![Alt Text](./src/assets/images/ezgif.com-crop.gif)
 
 
 ## Build
